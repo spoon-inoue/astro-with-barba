@@ -1,0 +1,34 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+
+interface Props extends HTMLAttributes<'a'> {
+  children: any
+  color?: string
+}
+
+const { color = '#fff', ...attr } = Astro.props
+---
+
+<a {...attr}>
+  <slot />
+</a>
+
+<style lang="scss" define:vars={{ color }}>
+  @use '../styles/mixins/medias.scss' as *;
+
+  a {
+    display: block;
+    width: fit-content;
+    color: var(--color);
+    font-size: 2.5rem;
+
+    @include hoverable {
+      transition: 0.3s;
+      transition-property: opacity, scale;
+      &:hover {
+        opacity: 0.5;
+        scale: 0.95;
+      }
+    }
+  }
+</style>

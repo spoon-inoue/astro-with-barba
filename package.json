@@ -1,0 +1,26 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview --host 192.168.0.16",
+    "astro": "astro",
+    "host": "astro dev --host 192.168.0.16"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "astro": "^2.0.6",
+    "gsap": "^3.11.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "prettier": "^2.8.3",
+    "prettier-plugin-astro": "^0.8.0",
+    "ress": "^5.0.2",
+    "sass": "^1.58.0"
+  }
+}

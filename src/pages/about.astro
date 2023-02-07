@@ -1,0 +1,35 @@
+---
+import '../layouts/BundleStyles.astro'
+import Link from '../components/Link.astro'
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="about page">
+  <meta slot="meta-description" name="description" content="this page is about." />
+
+  <main data-barba="container" data-barba-namespace="about">
+    <div>
+      <h1>About page</h1>
+      <Link class="link" href="/">Home</Link>
+    </div>
+  </main>
+</Layout>
+
+<style lang="scss">
+  main {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #203;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  .link {
+    margin-inline: auto;
+  }
+</style>
