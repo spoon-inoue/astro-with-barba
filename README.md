@@ -22,5 +22,7 @@ https://github.com/spoon-inoue/astro-with-barba/blob/9a68b1afa107d107126d4d5926b
 
 
 # References
+- [Astro support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)
+- [Prettier Plugin for Astro](https://github.com/withastro/prettier-plugin-astro)
 - [オールインワンのWeb制作環境Astro！こんなのがほしかった。](https://cumak.net/blog/astro/)
 - [Barba.js snippets](https://www.willstyle.co.jp/blog/1722/)
