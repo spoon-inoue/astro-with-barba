@@ -1,6 +1,10 @@
 # About
 AstroとBarba.jsを併用したデモです。
 
+https://astro-with-barba.vercel.app/
+
+![657ef1fb6c35e2cdb61ff819a77998b6edec1a67](https://user-images.githubusercontent.com/105195761/217194855-c3f1642b-1c95-45d6-965c-27b61afc0933.png)
+
 # Memo
 Barba.jsを使った場合、ページ遷移のタイミングでタイトル以外のhead要素を置き換えません。<br/>
 なので、ページ単位でStyleを分けて生成するAstroに適用すると、ページ遷移してもスタイルが当たってない状態になります。<br/>
